@@ -1,0 +1,23 @@
+$size: 300px;
+$radius: 0.5rem;
+$img: 100%;
+.random-photo {
+    &__button {
+        margin-bottom: 1rem;
+    }
+
+    &__photo {
+        width: $size;
+        height: $size;
+        border-radius: $radius;
+        background-color: #eee;
+
+        & > img {
+            width: $img;
+            height: $img;
+
+            border-radius: $radius;
+            vertical-align: middle;
+        }
+    }
+}

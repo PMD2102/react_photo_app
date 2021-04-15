@@ -1,0 +1,24 @@
+.header {
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+    &__title {
+        font-weight: bold;
+    }
+
+    &__link {
+        color: #000;
+        transition: all 0.25s ease-in-out 0s;
+
+        &:hover {
+            text-decoration: none;
+            color: var(--primary);
+        }
+    }
+}
+.new_post {
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
